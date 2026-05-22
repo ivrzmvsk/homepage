@@ -98,6 +98,15 @@ body {
   justify-content: center;
 }
 
+.contact-info__block--grow {
+  flex: 1;
+}
+
+.contact-info__block--right {
+  flex: 1;
+  align-items: flex-end;
+}
+
 .contact-info__item {
   color: var(--secondary-text-color);
   text-decoration: none;
